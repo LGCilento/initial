@@ -14,3 +14,7 @@ void count(int limit){
 		printf("%d\n",i );
 	}
 }
+void printc(char c){
+	printf("%c\n",c );
+
+}
