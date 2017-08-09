@@ -15,6 +15,7 @@ void count(int limit){
 	}
 }
 
+
 int factorial(int number){
 	if (number != 0)
 	{
@@ -24,3 +25,9 @@ int factorial(int number){
 		return 1;
 	}
 }
+
+void printc(char c){
+	printf("%c\n",c );
+
+}
+
