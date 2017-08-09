@@ -14,3 +14,13 @@ void count(int limit){
 		printf("%d\n",i );
 	}
 }
+
+void factorial(int number){
+	if (number != 0)
+	{
+		return factorial(number-1);
+	}
+	else{
+		return 1;
+	}
+}
