@@ -15,7 +15,7 @@ void count(int limit){
 	}
 }
 
-void factorial(int number){
+int factorial(int number){
 	if (number != 0)
 	{
 		return factorial(number-1);
